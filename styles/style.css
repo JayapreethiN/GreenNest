@@ -1,0 +1,50 @@
+body {
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+}
+
+body.landing {
+  background-image: url('../images/bg.jpg');
+  background-size: cover;
+  color: white;
+  text-align: center;
+  font-weight:bold;
+  font-family:"Times New Roman";
+  font-size:20px;
+}
+
+
+
+.btn {
+  padding: 10px 20px;
+  background: green;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+header {
+  background: #333;
+  color: white;
+  padding: 10px;
+}
+
+header a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.product-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product {
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  width: 150px;
+  text-align: center;
+}

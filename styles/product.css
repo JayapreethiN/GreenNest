@@ -1,0 +1,42 @@
+body {
+	background-image: url('../images/bg.jpg');
+  font-family: sans-serif;
+  padding: 20px;
+  background-color: #f0f0f0;
+
+  background-size: cover;
+  color: white;
+}
+
+header {
+  background: #333;
+  color: white;
+  padding: 10px;
+}
+
+header a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.product-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product {
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  width: 150px;
+  text-align: center;
+}
+
+h4, p{
+  background-color:black;
+  width:150px;
+  padding:1px;
+  border-radius:4px;
+}
